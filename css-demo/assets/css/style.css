@@ -1,16 +1,27 @@
 /* ---------------Box Sizing----------------- */
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  /* ---------------Global Style----------------- */
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* ---------------Utility Classes--------------- */
+.container{
+max-width:960px;
+width:80vw;
+margin:40px auto;
+}
+/* ---------------Responsive Imgs---*/
+img{
+max-width: 100%;
+}
+
+/* ---------------Global Style--------------- */
 body
 {
-  /*Comment*/
+/*Comment*/
 font-family: 'Noto Sans Mono', monospace;
 }
 header.primary
@@ -38,8 +49,8 @@ font-size: 2.5rem;
 margin: 20px 0;
 }
 header.primary h1 a{
-  color: #fff;
-  text-decoration: none;
+color: #fff;
+text-decoration: none;
 }
 header.primary h2{
 font-size: 1.6rem;
@@ -47,9 +58,9 @@ font-size: 1.6rem;
 margin: 20px auto 40px;;
 }
 header.primary nav{
-  width: 80vw;
-  max-width: 900;
-  margin: 20px auto;
+width: 80vw;
+max-width: 900;
+margin: 20px auto;
 }
 header.primary nav ul{
 padding: 0%;
@@ -59,18 +70,51 @@ justify-content: space-evenly;
 }
 header.primary nav ul li{
 
-   list-style-type: none;
-  }
-  header.primary nav ul li a{
-    text-decoration: none;
-    background-color: rgba(0,0,0,.4);
-    padding: 8px 16px;
-    border-radius: 20px;
-    transition: 0.5s;
-    border: 1px solid rgba(0,0,0,.6);
-   }
-  header.primary nav ul li a:hover,header.primary nav ul li a:active{
-    background-color: rgba(0,0,0,.8);
-    padding: 8px 16px;
-    border-radius: 20px;
-   }
+ list-style-type: none;
+}
+header.primary nav ul li a{
+  text-decoration: none;
+  background-color: rgba(0,0,0,.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.5s;
+  border: 1px solid rgba(0,0,0,.6);
+ }
+header.primary nav ul li a:hover,header.primary nav ul li a:active{
+  background-color: rgba(0,0,0,.8);
+  padding: 8px 16px;
+  border-radius: 20px;
+ }
+#intro h2{
+color:#3b638b;
+border-bottom:1px dotted #c0c0c0;
+}
+ /* ---------------Media Queries----------------- */
+ @media screen and (max-width:800px){
+  header.primary nav ul{
+    flex-direction: column;
+    }
+    header.primary nav a{
+      display: block;
+    }
+    header.primary nav li{
+      margin-bottom: 10px;
+    }
+
+ }
+#content{
+display:flex;
+flex-direction:row;
+justify-content: space-evenly;
+}
+article.post{
+width:30%;
+box-shadow: 0 4px 8px rgba(0,0,0,.3);
+padding:10px;
+ border-radius:4px;
+font-size: .8rem;
+}
+article.post:hover{
+box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+    
