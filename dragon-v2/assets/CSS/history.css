@@ -47,6 +47,20 @@ html {
     border: 1px solid rgba(0,0,0,.6);
    }
 
+   nav ul li a:hover{
+    color:#A4A5A6;
+    text-decoration: none;
+    background-color: #03588C;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px solid rgba(0,0,0,.6);
+
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 2.5rem;
+   }
+
   #content h2 {
     font-size:  3rem;;
     text-align: center;
