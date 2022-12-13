@@ -22,30 +22,25 @@ html {
   body{
     margin: 0 ;
     font-family: 'Montserrat', sans-serif;
+    
+    
 
   }
   body header {
   
-   padding-bottom: 2rem;
+   padding-bottom: 4rem;
    background-color: #0D0D0D;
    
   }
   header img{
     opacity: 70%;
   }
- 
-
-
-
   nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
-  #content{
-    clear:both;
-    
-  }
+
   nav ul li{
 
     list-style-type: none;
@@ -75,93 +70,139 @@ html {
     font-size: 2.5rem;
    }
 
-   
-
-
-
- #container{
-  background-color: #0D0D0D;
-  margin-top: -2.5rem;
- }
- #container h2{
-  font-weight: bold;
-  font-size: 3rem;
-  text-align: center;
-  color: #fff;
+#OverView{
+  margin-bottom: 5%;
 
 }
 
-  #container h3{
-    font-weight: bold;
-    font-size: 2rem;
+   #OverView h2{
     text-align: center;
-
-  }
-  #container ul {
-
-
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: -0.1rem;
-    padding-right: -0.1rem;
-  }
-  #container ul li {
-    background-color: #fff;
-    border: 5px solid #0D0D0D;
-    border-radius: 90px;
-    transition: 0.5s;
-    padding:2rem;
-  }
-
-  #container ul li:hover {
-    background-color: #fff;
-    border: 5px solid #0D0D0D;
-    border-radius: 90px;
-  
-
-    padding:4rem;
-
-  }
-  #container img{
-    position: relative;
-    border-radius: 80px;
-    width: 20rem;
-    height: auto;
-    justify-content: center;
-
-    
-
-  
-  }
-#content li
-{
-  list-style: none;
-}
-  #content article{
-    padding-top: 2rem;
+    font-size: 3rem;
+   }
+   #OverView p{
+    font-size: 2rem;
+    text-align: left;
+    margin-right: 10rem;
+    margin-left: 10rem;
     padding-bottom: 2rem;
-    margin-bottom: 2rem;
+   }
 
+  
+   #container{
     
-    border-radius: 90px;
-    
+    background-color: #fff;
+    margin-bottom: -5%;
+   }
 
-  }
- 
-  #content h2
-  {
-   font-size: 2rem;
-  }
+   #slideArticles img{
+    max-width:100%;
+}
 
-  #content p
-  {
-   font-size: 1.5rem;
-  }
+
+
+
+
+
+
+#slideArticles{
+  margin-top:5%;
+  border-radius: 50px;
+  
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+     height:700px;
+     background-color: #A4A5A6;
+
+}
+#slideContent{
+  position:relative; 
+  margin-right: auto;
+    margin-left: auto; 
+  margin-top: .2rem; 
+     width:550px;
+     
+  
+}
+#slideContent h2{
+  text-align:center;
+}
+#slideContent h3{
+  text-align:center;
+}
+
+#slideContent img{
+  position: relative;
+  border-radius: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 25rem;
+  height: auto;
+  max-width:100%;
+  
+}
+
+
+
+
+
+.container{
+    margin:40px auto;
+    padding-bottom: 10vw;
+    width:70vw;
+    /* Set Max Content Width */
+    max-width:700px;
+   
+}
+
+/* Customize Previous/Next/Dots/Autoplay */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: black;
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
+
+
+#Config{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.5rem;
+
+
+
+  
+  
+}
+
+
 
 
   footer{
+    margin-top: 10%;
     background-color: #0D0D0D;
     color: #fff;
     padding-bottom: 1rem;

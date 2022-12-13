@@ -2,9 +2,63 @@ body{
     background-color:darkgray;
 }
 
-img{
+#slideArticles img{
     max-width:100%;
 }
+/* TESTING STUFF 
+
+
+
+
+
+
+
+*/
+#slideArticles{
+  margin-top:10%;
+  border-radius: 50px;
+  background-color: rgb(229, 222, 222);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+     height:600px;
+}
+#slideContent{
+  position:relative; 
+  margin-right: auto;
+    margin-left: auto; 
+  margin-top: .2rem; 
+     width:550px;;
+  
+}
+#slideContent h2{
+  text-align:center;
+}
+#slideContent h3{
+  text-align:center;
+}
+
+#slideContent img{
+  position: relative;
+  border-radius: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 25rem;
+  height: auto;
+  
+}
+ 
+
+
 
 .container{
     margin:40px auto;
